@@ -1,5 +1,7 @@
 # K8s connector payloads for NG Rest Api
 
+## Example payloads for K8s connectors when using NextGen Rest-API https://harness.io/docs/api/tag/Connectors
+
 #### K8s connector with Inherited From Delegate auth
 ```JSON
 {
