@@ -1,4 +1,4 @@
-# K8s connector payloads for NG Rest Api
+# K8s connector payloads
 
 ## Example payloads for K8s connectors when using NextGen Rest-API https://harness.io/docs/api/tag/Connectors
 
