@@ -10,7 +10,7 @@ template:
         type: Deployment
         spec:
             serviceConfig:
-                serviceRef: Basic_Service
+                serviceRef: ""
                 serviceDefinition:
                     type: Kubernetes
                     spec:
@@ -119,7 +119,6 @@ template:
                           spec:
                               skipDryRun: false
             serviceDependencies: []
-        tags: {}
         failureStrategies:
             - onFailure:
                   errors:
