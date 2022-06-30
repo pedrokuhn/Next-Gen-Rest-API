@@ -1,0 +1,18 @@
+connector:
+  name: Test Azure
+  identifier: Test_Azure
+  description:
+  orgIdentifier: default
+  projectIdentifier: Git_Experience
+  type: Azure
+  spec:
+    credential:
+      type: ManualConfig
+      spec:
+        applicationId: 123
+        tenantId: 345
+        auth:
+          type: Secret
+          spec:
+            secretRef: azure1
+    azureEnvironmentType: AZURE
