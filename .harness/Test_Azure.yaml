@@ -1,7 +1,6 @@
 connector:
   name: Test Azure
   identifier: Test_Azure
-  description:
   orgIdentifier: default
   projectIdentifier: Git_Experience
   type: Azure
@@ -14,5 +13,5 @@ connector:
         auth:
           type: Secret
           spec:
-            secretRef: azure1
+            secretRef: account.GitHubToken
     azureEnvironmentType: AZURE
