@@ -14,6 +14,6 @@ connector:
         type: UsernameToken
         spec:
           username: pedrokuhn
-          tokenRef: GithubAccount
+          tokenRef: account.GitHubToken
     executeOnDelegate: true
     type: Account
