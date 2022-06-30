@@ -1,0 +1,19 @@
+connector:
+  name: tst
+  identifier: tst
+  description:
+  orgIdentifier: default
+  projectIdentifier: Git_Experience
+  type: Github
+  spec:
+    url: https://github.com/pedrokuhn
+    validationRepo: harness-git-sync-new
+    authentication:
+      type: Http
+      spec:
+        type: UsernameToken
+        spec:
+          username: pedrokuhn
+          tokenRef: GithubAccount
+    executeOnDelegate: true
+    type: Account
